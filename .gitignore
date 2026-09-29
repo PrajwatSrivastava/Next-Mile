@@ -1,0 +1,23 @@
+# Working backups. Git is the safety net now — these were the workaround for
+# not having one, and committing them doubles the repo for no benefit.
+*.baseline.html
+*.baseline.js
+index.prefix-*.html
+*.bak
+
+# Scratch output from the asset pipeline and from headless screenshot runs
+/scratch/
+/out/
+*.tmp
+
+# Node, if it ever gets installed here
+node_modules/
+package-lock.json
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
